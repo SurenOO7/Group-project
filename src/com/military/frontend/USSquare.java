@@ -4,15 +4,15 @@ import javax.swing.*;
 import java.awt.*;
 
 public class USSquare extends Panel_1{
-    public ImageIcon image = new ImageIcon("Images/Screen Shot 2022-05-02 at 20.49.12.png");
+    public ImageIcon image = new ImageIcon("Group-project/Images/Screen Shot 2022-05-02 at 20.49.12.png");
     private String heading = "USA";
-    private String infoFilePath = "Information_center/us.txt";
+    private String infoFilePath = "Group-project/Information_center/us.txt";
     private String color = "#999999";
     private JLabel lbl = new JLabel();
     private JTextArea smallText = null;
     protected JButton btn = new JButton("Read more");
-
-
+    
+    
     public ImageIcon getImage(){
         return image;
     }
@@ -46,6 +46,6 @@ public class USSquare extends Panel_1{
         this.setBackground(Color.decode(this.color));
         this.add(mutateBtn());
     }
-
+    
 }
 

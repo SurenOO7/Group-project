@@ -4,9 +4,9 @@ import javax.swing.*;
 import java.awt.*;
 
 public class ChinaSquare extends Panel_1{
-    public ImageIcon image = new ImageIcon("/Users/borismartirosyan/Desktop/AUA/OOP/Group_project/Images/Screen Shot 2022-05-02 at 21.02.09.png");
+    public ImageIcon image = new ImageIcon("Group-project/Images/Screen Shot 2022-05-02 at 21.02.09.png");
     private String heading = "China";
-    private String infoFilePath = "/Users/borismartirosyan/Desktop/AUA/OOP/Group_project/Information_center/china.txt";
+    private String infoFilePath = "Group-project/Information_center/china.txt";
     private String color = "#999999";
     private JLabel lbl = new JLabel();
     private JTextArea smallText = null;
@@ -31,7 +31,7 @@ public class ChinaSquare extends Panel_1{
     public JLabel getLbl(){
         return lbl;
     }
-
+  
     public JTextArea getSmallText(){
         return smallText;
     }
@@ -45,5 +45,5 @@ public class ChinaSquare extends Panel_1{
         this.setBackground(Color.decode(this.color));
         this.add(mutateBtn());
     }
-
+    
 }
